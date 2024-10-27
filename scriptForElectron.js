@@ -1,4 +1,3 @@
-//Used ChatGPT
 let pastPaths = []
 function speedRunFromGivenPage(){
     const startPage = document.getElementById('startPage').value.trim();
@@ -12,6 +11,7 @@ async function speedRunFromRandom() {
     const startPage = val.replace(/_/g, ' ');
     startSpeedrun(val, false);
 }
+//Displays path for the largest of 25 attempts
 async function speedRunFromRandom25() {
     let ind = 0;
     let len = 0
